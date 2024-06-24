@@ -17,9 +17,10 @@ Nếu mà không kích hoạt được ở `terminal` thì cần chạy lệnh n
 ### Khi tạo môi trường ảo, và import một số thư viện ảo hoặc import file py như một thư viện thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
-Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nhấn `Ctrl + ,` và tìm kiếm từ khóa `pylance` và tìm đến mục `Python>Analysis: Extra Paths` rồi thêm đường dẫn thư viện cảu dự án đang làm việc như hình ảnh:  
+Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nhấn `Ctrl + ,` và tìm kiếm từ khóa `pylance` và tìm đến mục `Python>Analysis: Extra Paths` rồi thêm đường dẫn thư viện của dự án đang làm việc như hình ảnh:  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/87d9e523-9a3e-4607-80b2-b2afe68c060b">  
 
+Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
 # Cách debug trong môi trường ảo của python với visual studio code
 ## Cách 1
 * Mở bảng điều khiển
