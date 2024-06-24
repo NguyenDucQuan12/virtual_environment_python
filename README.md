@@ -7,8 +7,12 @@ Mở `Visual studio code` --> `Add folder to workspace` --> add `Virtual_env`
 
 Bước 1: Tạo môi trường ảo `.camera_app` bên trong thư mục `Virtual_env`:  
 `python -m venv .camera_app prompt="venv_project1"` hoặc `C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe -m venv .camera_app prompt="venv_project1` Cách sau là dành cho các trường hợp chỉ định phiên bản python cụ thể, khi mà môi trường của bạn có nhiều phiên bản python  
+<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/a3e0299a-1bf7-4ffe-91ea-d7cdedd99239">  
+
 Bước 2: Kích hoạt môi trường ảo bằng `terminal`:  
 `.camera_app\Scripts\activate`  
+<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
+
 Nếu mà không kích hoạt được ở `terminal` thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
 
 # Cách debug trong môi trường ảo của python với visual studio code
