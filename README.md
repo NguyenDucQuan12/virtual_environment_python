@@ -39,4 +39,7 @@ Nhấn vào tab `debug` bên trái và chọn mũi tên xuống dưới để th
 * Chọn `add config (thư mục ảo cần debug)` và thêm dòng : `"justMyCode": false`.  
 <img src="https://github.com/NguyenDucQuan12/get_rtsp_ipcamera/assets/68120446/209c40aa-44d2-4806-aafb-505c0d188056">  
 
-* Lưu lại file và nhấn `F5` để debug
+* Lưu lại file và nhấn 1 trong 2 lựa chọn bên dưới để debug
+<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/dd3fae7f-113c-46f4-8203-80ffd7418a54">  
+
+`F5 và 2 bấm nút 2 lựa chọn` sẽ cho hai kết quả khác nhau  
