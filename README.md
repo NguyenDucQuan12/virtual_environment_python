@@ -24,7 +24,7 @@ Nếu xuất hiện lỗi: `pip: Fatal error in ...` thì chạy 2 lệnh sau đ
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
 Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nhấn `Ctrl + ,` và tìm kiếm từ khóa `pylance` và tìm đến mục `Python>Analysis: Extra Paths` rồi thêm đường dẫn thư viện của dự án đang làm việc như hình ảnh:  
-<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/87d9e523-9a3e-4607-80b2-b2afe68c060b">  
+<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c3586623-00d8-4b88-8ec6-1ef752f6261a">  
 
 Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
 # Cách debug trong môi trường ảo của python với visual studio code
