@@ -14,6 +14,12 @@ Bước 2: Kích hoạt môi trường ảo bằng `terminal`:
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
 
 Nếu mà không kích hoạt được ở `terminal` thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
+Bước 3: Cài đặt các thư viện cần thiết:  
+`python -m pip install -r requirements.txt`  
+Nếu có chỉnh sửa, thay đổi thư viện thì thêm vào file bằng câu lệnh sau: `python -m pip freeze > requirements.txt`  
+Nếu xuất hiện lỗi: `pip: Fatal error in ...` thì chạy 2 lệnh sau để khắc phục lỗi:  
+`python -m pip install --upgrade --force -reinstall pip`  
+`python -m pip freeze`
 ## Khi tạo môi trường ảo, và import một số thư viện ảo hoặc import file py như một thư viện thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
