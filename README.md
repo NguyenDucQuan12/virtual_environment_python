@@ -28,6 +28,11 @@ Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nh�
 
 Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
 # Cách debug trong môi trường ảo của python với visual studio code
+Đầu tiên cần đặt `Breakpoint` tại các dòng code sinh ra rỗi, hoặc bạn nghi dòng đó có thể dẫn đến lỗi  
+<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/bb2e8881-decd-4f57-abc9-865821f51cff">
+
+
+Ví dụ ở hình ảnh phía trên là đặt `Breakpoint` ở dòng 225 bằng cách `click chuột` vào bên trái dòng 225 là được.
 ## Cách 1
 * Mở bảng điều khiển
 Nhấn `Ctrl+Shift+P` và tìm kiếm `Python: Select interpreter` như ảnh dưới:  
