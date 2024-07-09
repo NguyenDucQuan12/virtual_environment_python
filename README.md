@@ -38,7 +38,7 @@ Ví dụ ở hình ảnh phía trên là đặt `Breakpoint` ở dòng 225 bằn
 Nhấn `Ctrl+Shift+P` và tìm kiếm `Python: Select interpreter` như ảnh dưới:  
 <img src="https://github.com/NguyenDucQuan12/get_rtsp_ipcamera/assets/68120446/613483fe-14b9-4440-b795-adc6a0d5718f">
 
-* Chọn thư mục chứa môi trường ảo và chọn phiên bản python phù hợp:  
+* Chọn thư mục chứa môi trường ảo và chọn phiên bản python phù hợp theo cú pháp<python x.xx.x ('name_folder':venv)>:  
 <img src="https://github.com/NguyenDucQuan12/get_rtsp_ipcamera/assets/68120446/72e84611-498d-44df-9875-c90a97dc83b2">  
 
 * Xong nhấn `F5` để debug  
