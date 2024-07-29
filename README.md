@@ -26,7 +26,10 @@ Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào 
 `.camera_app\Scripts\activate`  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
 
-Nếu mà không kích hoạt được ở `terminal` thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
+Nếu mà không kích hoạt được ở `terminal` khi gặp lỗi như hình ảnh bên dưới:  
+<img src="https://github.com/user-attachments/assets/7bfcf901-177d-44d3-8ef0-86c673ba0d69">  
+
+thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
 Bước 3: Cài đặt các thư viện cần thiết:  
 `python -m pip install -r requirements.txt`  
 Nếu có chỉnh sửa, thay đổi thư viện thì thêm vào file bằng câu lệnh sau: `python -m pip freeze > requirements.txt`  
