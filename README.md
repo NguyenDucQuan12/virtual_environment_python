@@ -2,7 +2,9 @@
 Tất cả thông tin về làm việc môi trường ảo ở python mà mình tích lũy được
 ### Lưu ý nên đặt thư mục ảo có dấu chấm phía trước, ví dụ: `.venv`, `.Camera_ven`  
 ## Tạo môi trường ảo với `Visual studio code`  
+
 Tạo một thư mục để chứa các dự án code với tên `Venv_Python`  
+
 Mở `Visual studio code` --> `Add folder to workspace` --> add `Venv_Python`  
 <img src="https://github.com/user-attachments/assets/8523dad7-4a89-48ee-83ba-ad854a8ffd57">  
 
@@ -30,12 +32,16 @@ Nếu mà không kích hoạt được ở `terminal` khi gặp lỗi như hình
 <img src="https://github.com/user-attachments/assets/7bfcf901-177d-44d3-8ef0-86c673ba0d69">  
 
 thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
+
 Bước 3: Cài đặt các thư viện cần thiết:  
 `python -m pip install -r requirements.txt`  
+
 Nếu có chỉnh sửa, thay đổi thư viện thì thêm vào file bằng câu lệnh sau: `python -m pip freeze > requirements.txt`  
+
 Nếu xuất hiện lỗi: `pip: Fatal error in ...` thì chạy 2 lệnh sau để khắc phục lỗi:  
 `python -m pip install --upgrade --force -reinstall pip`  
 `python -m pip freeze`
+
 ## Khi tạo môi trường ảo, và import một số thư viện ảo hoặc import file py như một thư viện thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
@@ -43,6 +49,7 @@ Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nh�
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c3586623-00d8-4b88-8ec6-1ef752f6261a">  
 
 Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
+
 # Cách debug trong môi trường ảo của python với visual studio code
 Đầu tiên cần đặt `Breakpoint` tại các dòng code sinh ra rỗi, hoặc bạn nghi dòng đó có thể dẫn đến lỗi  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/bb2e8881-decd-4f57-abc9-865821f51cff">
