@@ -85,6 +85,10 @@ Nhấn `Ctrl+Shift+P` và tìm kiếm `Python: Select interpreter` như ảnh d�
 
 <img src="https://github.com/NguyenDucQuan12/get_rtsp_ipcamera/assets/68120446/72e84611-498d-44df-9875-c90a97dc83b2">  
 
+Nếu không hiển thị môi trường ảo của bạn vừa tạo thì ấn `Enter interpreter path..` xong ấn `find` vào thư mục thoe đường dẫn `project/Scripts/python.exe` và chọn  
+
+<img src="https://github.com/user-attachments/assets/b18b316d-0ae3-4751-ab74-95d8ead8511c">
+
 
 * Xong nhấn `F5` để debug
 
