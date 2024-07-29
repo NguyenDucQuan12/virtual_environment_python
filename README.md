@@ -7,12 +7,14 @@ Mở `Visual studio code` --> `Add folder to workspace` --> add `Virtual_env`
 
 Bước 1: Tạo môi trường ảo `.camera_app` bên trong thư mục `Virtual_env`:  
 `python -m venv .camera_app --prompt="venv_project1"`  
+<img src="https://github.com/user-attachments/assets/115a1045-46a2-4cfc-8359-82b2f6ca23f0"> 
+
 Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
 Để cài một phiên bản python khác ta sử dụng cách sau:  
 + Đầu tiên cần tải cài 1 phiên bản python khác từ trang chủ python (khi cài đặt nhớ tích vào ô add PATH ...)
 + Tiếp theo chạy lệnh sau để xem đã có phiên bản python đã cài chưa `py --list`
-+ Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với python 3.10: `py -3.10 -m venv .project_1 --prompt="project1_310"`  
-<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/a3e0299a-1bf7-4ffe-91ea-d7cdedd99239">  
++ Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với python 3.10: `py -3.10 -m venv .project_1 --prompt="project1_310"`
+<img src="https://github.com/user-attachments/assets/d73453e6-c553-42f5-b29f-ed3a2bd3a566">  
 
 Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào thư mục `.camera_app\Scripts` và copy đường dẫn `activate`:  
 <img src="https://github.com/user-attachments/assets/bf851f10-d202-41e3-b1c1-6c7f9d2d9287">
