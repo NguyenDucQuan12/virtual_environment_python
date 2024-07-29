@@ -14,7 +14,9 @@ Cách phía trên sẽ áp dụng phiên bản python mặc định của máy v
 + Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với python 3.10: `py -3.10 -m venv .project_1 --prompt="project1_310"`  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/a3e0299a-1bf7-4ffe-91ea-d7cdedd99239">  
 
-Bước 2: Kích hoạt môi trường ảo bằng `terminal`:  
+Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào thư mục `.camera_app\Scripts` và copy đường dẫn `activate`:  
+<img src="https://github.com/user-attachments/assets/bf851f10-d202-41e3-b1c1-6c7f9d2d9287">
+
 `.camera_app\Scripts\activate`  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
 
