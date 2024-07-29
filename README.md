@@ -9,7 +9,7 @@ Bước 1: Tạo môi trường ảo `.camera_app` bên trong thư mục `Virtua
 `python -m venv .camera_app --prompt="venv_project1"`  
 Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
 Để cài một phiên bản python khác ta sử dụng cách sau:  
-+ Đầu tiên cần cài 1 phiên bản python khác (khi cài đặt nhớ tích vào ô add PATH ...)
++ Đầu tiên cần tải cài 1 phiên bản python khác từ trang chủ python (khi cài đặt nhớ tích vào ô add PATH ...)
 + Tiếp theo chạy lệnh sau để xem đã có phiên bản python đã cài chưa `py --list`
 + Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với python 3.10: `py -3.10 -m venv .project_1 --prompt="project1_310"`  
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/a3e0299a-1bf7-4ffe-91ea-d7cdedd99239">  
