@@ -7,6 +7,8 @@ Mở `Visual studio code` --> `Add folder to workspace` --> add `Venv_Python`
 <img src="https://github.com/user-attachments/assets/8523dad7-4a89-48ee-83ba-ad854a8ffd57">  
 
 `Mở Terminal của thư mục Venv_Python và thực hiện các câu lệnh từ bên dưới`  
+<img src="https://github.com/user-attachments/assets/b24f0bb7-c513-4881-8866-7f2db298451e"> 
+
 Bước 1: Tạo môi trường ảo `.camera_app` bên trong thư mục `Venv_Python`:  
 `python -m venv .camera_app --prompt="venv_project1"`  
 <img src="https://github.com/user-attachments/assets/115a1045-46a2-4cfc-8359-82b2f6ca23f0"> 
