@@ -56,7 +56,8 @@ Nếu xuất hiện lỗi: `pip: Fatal error in ...` thì chạy 2 lệnh sau đ
 `python -m pip install --upgrade --force -reinstall pip`  
 `python -m pip freeze`
 
-## Khi tạo môi trường ảo, và import một số thư viện ảo hoặc import file py như một thư viện thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
+## Lỗi khi import thư viện
+### Khi import một số thư viện vào môi trường ảo thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
 
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
@@ -65,6 +66,31 @@ Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nh�
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c3586623-00d8-4b88-8ec6-1ef752f6261a">  
 
 Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
+
+## Khi import một hàm từ file python khác như mô đun bằng đường dẫn tuyệt đối nhưng không được, còn đường dẫn tương đối thì được (không nên sử dụng đường dẫn tương đối)  
+Đường dẫn tương đối là sử dụng `from ....service.schemas import function`, không nên sử dụn cách này  
+Sử dụng đường dẫn tuyệt đối  
+
+<img src="https://github.com/user-attachments/assets/57d6bdd3-18df-4656-b746-720960ead48f"> 
+
+Để có thể nhập được đường dẫn tuyệt đối (import hàm của thư mục cha vào thư mục con)  
+Bước 1: Chuột phải vào `This PC` chọn `Properties`  
+
+<img src="https://github.com/user-attachments/assets/88ff0e13-76a6-4dfa-96b8-9a0a82932ff1"> 
+
+Chọn `Advanced system settings` và vào `Enviroment Variable`  
+
+<img src="https://github.com/user-attachments/assets/ac27406f-b126-4048-949b-cb7d3710a3a4"> 
+
+Bước 2: Chọn `New` trong mục `System Variable` và điền thông tin như sau  
+`Variable Name` sẽ là `PYTHONPATH`  
+`Variable value` sẽ là đường dẫn đến dự án cảu bản thân  
+
+<img src="https://github.com/user-attachments/assets/a0558238-eeb6-4ae2-beda-dd315816d1b1"> 
+
+Sau đó mở lại visual studio code và import các hàm của thư mục khác  
+
+<img src="https://github.com/user-attachments/assets/b0264b42-a584-4384-9d44-927e960d28ef">
 
 # Cách debug trong môi trường ảo của python với visual studio code
 Đầu tiên cần đặt `Breakpoint` tại các dòng code sinh ra rỗi, hoặc bạn nghi dòng đó có thể dẫn đến lỗi  
