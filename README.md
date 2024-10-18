@@ -52,12 +52,13 @@ Ta có thể thấy, trên máy có 2 phiên bản python đó là `python 3.12`
 Sau khi cài đặt môi trường ảo và kích hoạt môi trường ảo và check lại thì nhận được kết quả là `python 3.12`, vậy là đã thành công  
 <img src="https://github.com/user-attachments/assets/0be1bbc9-a43f-45cf-aacd-31cf494d187e"> 
 
-Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào thư mục `.camera_app\Scripts` và copy đường dẫn `activate`:  
+Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào thư mục `venv_project/Scripts` và copy đường dẫn `activate`:  
 
-<img src="https://github.com/user-attachments/assets/bf851f10-d202-41e3-b1c1-6c7f9d2d9287">
+<img src="https://github.com/user-attachments/assets/2d1b0ac0-b1b0-4838-b73a-202c0e7c202a">  
 
-
-`.camera_app\Scripts\activate`  
+```
+venv_project\Scripts\activate  
+```
 
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
 
