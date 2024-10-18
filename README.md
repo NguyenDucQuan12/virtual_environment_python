@@ -1,14 +1,17 @@
 # virtual_environment_python
 Tất cả thông tin về làm việc môi trường ảo ở python mà mình tích lũy được
-### Lưu ý nên đặt thư mục ảo có dấu chấm phía trước, ví dụ: `.venv`, `.Camera_ven`  
+### Đặt thư mục ảo nên có chữ `venv` để dễ nhận biết, ví dụ: `venv`, `Camera_venv`  
 ## Tạo môi trường ảo với `Visual studio code`  
 
-Tạo một thư mục để chứa các dự án code với tên `Venv_Python`  
+Tạo một thư mục để chứa dự án code: ví dụ `Work_with_camera`    
 
-Mở `Visual studio code` --> `Add folder to workspace` --> add `Venv_Python`  
+Mở `Visual studio code` --> `Add folder to workspace` --> add `Work_with_camera`--> Chọn `Yes`  
 
-<img src="https://github.com/user-attachments/assets/8523dad7-4a89-48ee-83ba-ad854a8ffd57">  
+<img src="https://github.com/user-attachments/assets/cea6056d-ee33-484a-b9c5-450689c9cf92">  
 
+Sau đó ta có các thư mục sẽ chứa code nằm bên phải:  
+
+<img src="https://github.com/user-attachments/assets/7200d931-b581-4c67-8c9f-ae51598fcc71">  
 
 `Mở Terminal của thư mục Venv_Python và thực hiện các câu lệnh từ bên dưới`  
 
