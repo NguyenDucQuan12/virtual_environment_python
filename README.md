@@ -63,6 +63,15 @@ venv_project\Scripts\activate
 <img src="https://github.com/user-attachments/assets/24b331ec-e8b9-4f15-9952-7c87d970ebe0">  
 
 Nếu mà không kích hoạt được ở `terminal` khi gặp lỗi như hình ảnh bên dưới:  
+```
+.project_1\Scripts\activate : File D:\Dự án\Python312\.project_1\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .project_1\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
 
 <img src="https://github.com/user-attachments/assets/7bfcf901-177d-44d3-8ef0-86c673ba0d69">  
 
