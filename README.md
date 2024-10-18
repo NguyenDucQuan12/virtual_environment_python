@@ -1,6 +1,9 @@
 # virtual_environment_python
-Tất cả thông tin về làm việc môi trường ảo ở python mà mình tích lũy được
+Tất cả thông tin về làm việc môi trường ảo ở python mà mình tích lũy được  
+
 ### Đặt thư mục ảo nên có chữ `venv` để dễ nhận biết, ví dụ: `venv`, `Camera_venv`  
+
+
 ## Tạo môi trường ảo với `Visual studio code`  
 
 Tạo một thư mục để chứa dự án code: ví dụ `Work_with_camera`    
@@ -25,8 +28,7 @@ python -m venv venv_project --prompt="venv camera"
 
 <img src="https://github.com/user-attachments/assets/73348eff-7aea-4b2c-a34c-8c811d0e0674">  
 
-###Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
-
+### Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
 
 Để cài một phiên bản python khác ta sử dụng cách sau:  
 + Đầu tiên cần tải cài 1 phiên bản python khác từ trang chủ python (khi cài đặt nhớ tích vào ô add PATH ...)
@@ -44,11 +46,11 @@ py -3.12 -m venv .project_1 --prompt="project1_312"
 ```
 Để check phiên bản đang cài thì chỉ cần kích hoạt môi trường ảo và chạy lệnh  
 python --version  
-
-<img src="https://github.com/user-attachments/assets/0be1bbc9-a43f-45cf-aacd-31cf494d187e">  
+ 
 ```
-<img src="https://github.com/user-attachments/assets/bb17f93f-b2f7-4b71-a344-dbf19c4c8aa0">  
-
+Ta có thể thấy, trên máy có 2 phiên bản python đó là `python 3.12` và `python 3.10`, sau đó ta kiểm tra phiên bản python hiện tại thì nhận được kết quả là `python 3.10`  
+Sau khi cài đặt môi trường ảo và kích hoạt môi trường ảo và check lại thì nhận được kết quả là `python 3.12`, vậy là đã thành công  
+<img src="https://github.com/user-attachments/assets/0be1bbc9-a43f-45cf-aacd-31cf494d187e"> 
 
 Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào thư mục `.camera_app\Scripts` và copy đường dẫn `activate`:  
 
