@@ -60,24 +60,35 @@ Bước 2: Kích hoạt môi trường ảo bằng `terminal` bằng cách vào 
 venv_project\Scripts\activate  
 ```
 
-<img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c9524d98-9110-4ac7-8289-654b173724d4">  
-
+<img src="https://github.com/user-attachments/assets/24b331ec-e8b9-4f15-9952-7c87d970ebe0">  
 
 Nếu mà không kích hoạt được ở `terminal` khi gặp lỗi như hình ảnh bên dưới:  
 
 <img src="https://github.com/user-attachments/assets/7bfcf901-177d-44d3-8ef0-86c673ba0d69">  
 
-
-thì cần chạy lệnh này trước khi chạy lại lệnh trên: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`  
+thì cần chạy lệnh này trước khi chạy lại lệnh trên:  
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  
+```
 
 Bước 3: Cài đặt các thư viện cần thiết:  
-`python -m pip install -r requirements.txt`  
 
-Nếu có chỉnh sửa, thay đổi thư viện thì thêm vào file bằng câu lệnh sau: `python -m pip freeze > requirements.txt`  
+```
+python -m pip install -r requirements.txt  
+```
+
+Nếu có chỉnh sửa, thay đổi thư viện thì thêm vào file bằng câu lệnh sau:  
+
+```
+python -m pip freeze > requirements.txt
+```
 
 Nếu xuất hiện lỗi: `pip: Fatal error in ...` thì chạy 2 lệnh sau để khắc phục lỗi:  
-`python -m pip install --upgrade --force -reinstall pip`  
-`python -m pip freeze`
+
+```
+python -m pip install --upgrade --force -reinstall pip  
+python -m pip freeze  
+```
 
 ## Lỗi khi import thư viện
 ### Khi import một số thư viện vào môi trường ảo thường sẽ gặp lỗi `Import "newlibrary" could not be resolved`, tuy nhiên code vẫn hoạt động bình thường, lỗi xuất hiện nhìn khó chịu, vì vậy cần sửa như sau:  
@@ -91,7 +102,10 @@ Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nh�
 Bước 2: Nhấn `OK` để lưu và lỗi sẽ mất nếu thư viện đó bạn đã cài bằng `pip`  
 
 ## Khi import một hàm từ file python khác như mô đun bằng đường dẫn tuyệt đối nhưng không được, còn đường dẫn tương đối thì được (không nên sử dụng đường dẫn tương đối)  
-Đường dẫn tương đối là sử dụng `from ....service.schemas import function`, không nên sử dụn cách này  
+Đường dẫn tương đối là sử dụng, không nên sử dụng cách này  
+```
+from ....service.schemas import function  
+```
 Sử dụng đường dẫn tuyệt đối  
 
 <img src="https://github.com/user-attachments/assets/57d6bdd3-18df-4656-b746-720960ead48f"> 
@@ -107,7 +121,7 @@ Chọn `Advanced system settings` và vào `Enviroment Variable`
 
 Bước 2: Chọn `New` trong mục `System Variable` và điền thông tin như sau  
 `Variable Name` sẽ là `PYTHONPATH`  
-`Variable value` sẽ là đường dẫn đến dự án cảu bản thân  
+`Variable value` sẽ là đường dẫn đến dự án của bản thân  
 
 <img src="https://github.com/user-attachments/assets/a0558238-eeb6-4ae2-beda-dd315816d1b1"> 
 
