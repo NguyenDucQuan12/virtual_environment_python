@@ -13,16 +13,17 @@ Sau đó ta có các thư mục sẽ chứa code nằm bên phải:
 
 <img src="https://github.com/user-attachments/assets/7200d931-b581-4c67-8c9f-ae51598fcc71">  
 
-`Mở Terminal của thư mục Venv_Python và thực hiện các câu lệnh từ bên dưới`  
+`Mở Terminal của thư mục Work_with_camera và thực hiện các câu lệnh từ bước sau bằng termial`  
 
-<img src="https://github.com/user-attachments/assets/b24f0bb7-c513-4881-8866-7f2db298451e"> 
+<img src="https://github.com/user-attachments/assets/16cb182c-fc8d-4c9a-ad37-47698c5ffa58">  
 
+Bước 1: Tạo môi trường ảo `venv` bên trong thư mục `Work_with_camera`:  
+Trong đó `venv_project` là tên thư mục chứa môi trường ảo, `"venv camera"` sẽ là tên hiển thị khi kích hoạt môi trường ảo
+```
+python -m venv venv_project --prompt="venv camera"
+```  
 
-Bước 1: Tạo môi trường ảo `.camera_app` bên trong thư mục `Venv_Python`:  
-`python -m venv .camera_app --prompt="venv_project1"`  
-
-<img src="https://github.com/user-attachments/assets/115a1045-46a2-4cfc-8359-82b2f6ca23f0"> 
-
+<img src="https://github.com/user-attachments/assets/73348eff-7aea-4b2c-a34c-8c811d0e0674">  
 
 Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
 Để cài một phiên bản python khác ta sử dụng cách sau:  
