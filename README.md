@@ -25,12 +25,28 @@ python -m venv venv_project --prompt="venv camera"
 
 <img src="https://github.com/user-attachments/assets/73348eff-7aea-4b2c-a34c-8c811d0e0674">  
 
-Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
+###Cách phía trên sẽ áp dụng phiên bản python mặc định của máy vào thư mục ảo  
+
+
 Để cài một phiên bản python khác ta sử dụng cách sau:  
 + Đầu tiên cần tải cài 1 phiên bản python khác từ trang chủ python (khi cài đặt nhớ tích vào ô add PATH ...)
-+ Tiếp theo chạy lệnh sau để xem đã có phiên bản python đã cài chưa `py --list`
-+ Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với python 3.10: `py -3.10 -m venv .project_1 --prompt="project1_310"`
++ Chạy lệnh phía dưới để liệt kê danh sách các phiên bản `python` đã cài trên máy  
+```
+py --list
+```
 
+<img src="https://github.com/user-attachments/assets/4d42b085-11d6-4b0e-91b5-4abf9d72c464">  
+
+Chạy lệnh sau để cài phiên bản python cụ thể, ví dụ với `python 3.12`:  
+```
+py -3.12 -m venv .project_1 --prompt="project1_312"
+```
+```
+Để check phiên bản đang cài thì chỉ cần kích hoạt môi trường ảo và chạy lệnh  
+python --version  
+
+<img src="https://github.com/user-attachments/assets/0be1bbc9-a43f-45cf-aacd-31cf494d187e">  
+```
 <img src="https://github.com/user-attachments/assets/bb17f93f-b2f7-4b71-a344-dbf19c4c8aa0">  
 
 
