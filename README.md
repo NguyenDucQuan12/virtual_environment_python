@@ -120,6 +120,10 @@ Sử dụng đường dẫn tuyệt đối
 <img src="https://github.com/user-attachments/assets/57d6bdd3-18df-4656-b746-720960ead48f"> 
 
 Để có thể nhập được đường dẫn tuyệt đối (import hàm của thư mục cha vào thư mục con)  
+
+> Đầu tiên ta cần phải tạo một tệp tin "__init__.py" trống
+> Mỗi thư mục mà chứa tệp tin cần import nó thì ta sẽ tạo tệp tin init kia (ngoại trừ thư mục gốc, hoặc thư mục chứa file main thì ko cần thêm, vì nó là gốc)
+
 Bước 1: Chuột phải vào `This PC` chọn `Properties`  
 
 <img src="https://github.com/user-attachments/assets/88ff0e13-76a6-4dfa-96b8-9a0a82932ff1"> 
