@@ -121,8 +121,8 @@ Sử dụng đường dẫn tuyệt đối
 
 Để có thể nhập được đường dẫn tuyệt đối (import hàm của thư mục cha vào thư mục con)  
 
-> Đầu tiên ta cần phải tạo một tệp tin "__init__.py" trống
-> Mỗi thư mục mà chứa tệp tin cần import nó thì ta sẽ tạo tệp tin init kia (ngoại trừ thư mục gốc, hoặc thư mục chứa file main thì ko cần thêm, vì nó là gốc)
+> Đầu tiên ta cần phải tạo một tệp tin "__init__.py" trống như các hình ảnh phía trên  
+> Mỗi thư mục mà chứa tệp tin cần import nó thì ta sẽ tạo tệp tin init kia (ngoại trừ thư mục gốc, hoặc thư mục chứa file main thì ko cần thêm, vì nó ko có file nào import cả)
 
 Bước 1: Chuột phải vào `This PC` chọn `Properties`  
 
