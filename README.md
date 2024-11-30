@@ -186,3 +186,9 @@ Nhấn vào tab `debug` bên trái và chọn mũi tên xuống dưới để th
 
 
 `F5 và 2 bấm nút 2 lựa chọn` sẽ cho hai kết quả khác nhau  
+
+## ⭐ Star History
+
+<a href="https://github.com/NguyenDucQuan12/virtual_environment_python/stargazers">
+        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=NguyenDucQuan12/virtual_environment_python&type=Date">
+</a>
