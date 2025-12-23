@@ -104,6 +104,20 @@ python -m pip freeze
 
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/99a31ec5-2246-49f8-87a5-c4761e57f158">  
 
+Có 2 cách để sửa lỗi. Thử cách 1 xong đến cách 2.  
+
+> Lựa chọn môi trường ảo khớp với thư mục đang làm việc
+
+Đầu tiên ta ấn tổ hợp phím: `Ctrl + Shift + P`. Sẽ xổ ra các lựa chọn.  
+
+Ta tìm và chọn chức năng: `Python: Select Interpreter`.  
+
+Sau đó chọn thư mục mà chúng ta vừa tạo môi trường ảo.  
+
+Cuối cùng sẽ sổ ra các phiên bản python, ta chọn phiên bản python mà chúng ta vừa tạo, có tên môi trường ảo ta vừa tạo. Thường nó sẽ có tên đề xuất là `Recommended`.  Chọn phiên bản đó là được.  
+
+> Thêm thư mục làm việc vào Extra Path  
+
 Bước 1: Mở `setting` từ màn hình `visual studio code` bằng cách nhấn `Ctrl + ,` và tìm kiếm từ khóa `pylance` và tìm đến mục `Python>Analysis: Extra Paths` rồi thêm đường dẫn thư viện của dự án đang làm việc như hình ảnh:  
 
 <img src="https://github.com/NguyenDucQuan12/virtual_environment_python/assets/68120446/c3586623-00d8-4b88-8ec6-1ef752f6261a">  
